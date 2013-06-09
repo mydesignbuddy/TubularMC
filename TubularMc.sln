@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubularMc.Data", "TubularMc.Data\TubularMc.Data.csproj", "{B52787D9-244B-4D5F-A11F-972C7548EF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubularMc.Domain", "TubularMc.Domain\TubularMc.Domain.csproj", "{497BEB73-F2AD-49EE-AA8A-0D578EA63CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubularMc.Wpf", "TubularMc.Wpf\TubularMc.Wpf.csproj", "{5D2AE368-493B-4E94-99E0-8FF054774CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubularMc.Utilities", "TubularMc.Utilities\TubularMc.Utilities.csproj", "{4748772B-10DF-46D7-B567-1D1AE25CA135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{709068EA-B5CC-4685-AF39-C70CD368C045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubularMc.Utilities.Integrations", "TubularMc.Utilities.Integrations\TubularMc.Utilities.Integrations.csproj", "{9BA0EA9C-8516-4E90-98B1-378E898225A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B52787D9-244B-4D5F-A11F-972C7548EF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52787D9-244B-4D5F-A11F-972C7548EF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52787D9-244B-4D5F-A11F-972C7548EF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52787D9-244B-4D5F-A11F-972C7548EF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497BEB73-F2AD-49EE-AA8A-0D578EA63CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497BEB73-F2AD-49EE-AA8A-0D578EA63CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497BEB73-F2AD-49EE-AA8A-0D578EA63CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497BEB73-F2AD-49EE-AA8A-0D578EA63CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2AE368-493B-4E94-99E0-8FF054774CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2AE368-493B-4E94-99E0-8FF054774CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2AE368-493B-4E94-99E0-8FF054774CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2AE368-493B-4E94-99E0-8FF054774CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4748772B-10DF-46D7-B567-1D1AE25CA135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4748772B-10DF-46D7-B567-1D1AE25CA135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4748772B-10DF-46D7-B567-1D1AE25CA135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4748772B-10DF-46D7-B567-1D1AE25CA135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA0EA9C-8516-4E90-98B1-378E898225A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA0EA9C-8516-4E90-98B1-378E898225A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA0EA9C-8516-4E90-98B1-378E898225A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA0EA9C-8516-4E90-98B1-378E898225A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA0EA9C-8516-4E90-98B1-378E898225A8} = {709068EA-B5CC-4685-AF39-C70CD368C045}
+	EndGlobalSection
+EndGlobal
